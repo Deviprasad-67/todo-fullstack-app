@@ -1,0 +1,54 @@
+.navbar {
+  background-color: #2563eb;
+  color: white;
+  padding: 18px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.todo-form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.todo-form {
+    background: white;
+    width: 500px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.todo-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.todo-form input,
+.todo-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.todo-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.todo-form button {
+    width: 100%;
+    padding: 12px;
+    background: royalblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.todo-form button:hover {
+    background: #1d4ed8;
+}
